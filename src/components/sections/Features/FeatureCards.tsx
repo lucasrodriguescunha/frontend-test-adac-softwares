@@ -9,14 +9,14 @@ export function FeatureCards() {
     {
       id: 1,
       icon: FeatureIcon1,
-      title: 'A single source of truth',
+      title: 'A single source\nof truth',
       description:
         'When you add work to your Slate calendar we automatically calculate useful insights'
     },
     {
       id: 2,
       icon: FeatureIcon2,
-      title: 'Intuitive interface',
+      title: 'Intuitive\ninterface',
       description:
         'When you add work to your Slate calendar we automatically calculate useful insights'
     },
