@@ -1,5 +1,5 @@
 import { HeroTitle } from './HeroTitle';
-import { HeroSubTitle } from './a';
+import { HeroSubTitle } from './HeroSubTitle';
 import { CTAButton } from './CTAButton';
 import { HeroBanner } from './HeroBanner';
 
