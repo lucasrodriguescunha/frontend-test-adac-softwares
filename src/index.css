@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* --- 1. Declaração das Fontes (@font-face) --- */
+/* Certifique-se de que o caminho (path) está correto em relação a este arquivo CSS */
+
+/* Regular (Peso 400) */
+@font-face {
+  font-family: 'Graphik';
+  src: url('./assets/fonts/Graphik/Graphik-Regular-Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium (Peso 500) */
+@font-face {
+  font-family: 'Graphik';
+  src: url('./assets/fonts/Graphik/Graphik-Medium-Trial.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Semibold (Peso 600) */
+@font-face {
+  font-family: 'Graphik';
+  src: url('./assets/fonts/Graphik/Graphik-Semibold-Trial.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Bold (Peso 700) */
+@font-face {
+  font-family: 'Graphik';
+  src: url('./assets/fonts/Graphik/Graphik-Bold-Trial.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Adicione os outros pesos (Thin, Black, etc.) seguindo o padrão acima se precisar */
+
+/* --- 2. Configuração do Tailwind v4 (@theme) --- */
+@theme {
+  /*
+     Opção A: Substituir a fonte padrão (sans).
+     Assim, todo o site usará Graphik automaticamente.
+  */
+  --font-sans: "Graphik", ui-sans-serif, system-ui, sans-serif;
+
+  /*
+     Opção B: Criar uma classe específica (ex: font-graphik).
+     Se escolher esta, remova a linha de cima e use a de baixo.
+  */
+  /* --font-graphik: "Graphik", sans-serif; */
+}
+
+/* --- CSS Padrão e Utilitários --- */
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* Garante que a fonte seja aplicada */
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@utility bg-dark {
+  background: #181818;
+}
+
+@utility bg-dark-lighter {
+  background: #252525;
+}
+
+@utility bg-dark-card {
+  background: #1f1f1f;
+}
