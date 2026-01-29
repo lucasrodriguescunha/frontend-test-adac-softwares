@@ -1,16 +1,19 @@
 import { HeroTitle } from './HeroTitle';
 import { HeroSubTitle } from './HeroSubtitle';
 import { CTAButton } from './CTAButton';
+import { HeroBanner } from './HeroBanner';
 
 export function Hero() {
   return (
     <section
-      className='flex flex-col items-center bg-dark text-center px-10 py-10 gap-8'
-      aria-labelledby='hero-title'
+      className='flex flex-col items-center bg-dark text-center'
     >
-      <HeroTitle />
-      <HeroSubTitle />
+      <section className='flex flex-col px-[85px] py-[85px] gap-10'>
+        <HeroTitle />
+        <HeroSubTitle />
+      </section>
       <CTAButton />
+      <HeroBanner />
     </section>
   );
 }

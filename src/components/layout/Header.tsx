@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { HeaderButton } from './LoginButton';
-import FigmaLandIcon from '../assets/figma-land.svg';
+import FigmaLandIcon from '../../assets/figma-land.svg';
 
 export function Header() {
   return (

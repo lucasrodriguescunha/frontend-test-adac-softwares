@@ -3,7 +3,7 @@ export function CTAButton() {
     <div
       role='group'
       aria-label='Ações principais'
-      className='flex gap-10'
+      className='flex gap-10 pb-10'
     >
       <button
         type='button'
