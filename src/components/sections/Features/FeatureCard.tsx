@@ -1,4 +1,4 @@
-import type { FeatureCardProps } from '../../../types/FeatureCardProps'
+import type { FeatureCardProps } from '../../../types/FeatureCardProps';
 
 export function FeatureCard({
   id,
