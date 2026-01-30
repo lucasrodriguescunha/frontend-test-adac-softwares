@@ -1,7 +1,6 @@
 export function CTAButton() {
   return (
-    <div
-      role='group'
+    <section
       aria-label='Ações principais'
       className='flex gap-10 pb-10'
     >
@@ -18,6 +17,6 @@ export function CTAButton() {
       >
         Learn More
       </button>
-    </div>
+    </section>
   );
 }

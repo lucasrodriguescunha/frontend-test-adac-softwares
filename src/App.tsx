@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import { Hero } from './components/sections/Hero/Hero';
 import { Features } from './components/sections/Features/Features';
+import { Contents } from './components/sections/Contents/Contents';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Header />
       <Hero />
       <Features />
+      <Contents />
 
       <Routes>
         <Route path='/' element={<Home />} />

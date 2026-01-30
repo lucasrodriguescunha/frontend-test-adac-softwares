@@ -14,7 +14,7 @@ export function HeroTitle() {
     }, 60);
 
     return () => clearTimeout(timeout);
-  }, [index, text]);
+  }, [index]);
 
   const lines = displayedText.split('\n');
   const isTyping = index < text.length;
