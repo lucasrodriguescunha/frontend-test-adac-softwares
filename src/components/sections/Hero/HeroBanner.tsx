@@ -6,12 +6,12 @@ export function HeroBanner() {
     <section className='w-full relative'>
       <img
         src={HeroBannerImage}
-        alt="Hero Banner"
+        alt='Hero Banner'
         className='w-full h-auto block relative z-0 pb-[160px]'
       />
       <img
         src={HeroBannerGradient}
-        alt=""
+        alt=''
         className='absolute bottom-0 left-0 w-full h-auto pointer-events-none z-1'
       />
     </section>

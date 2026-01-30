@@ -1,0 +1,1 @@
+export type CTAButtonVariant = 'dark' | 'primary' | 'light';

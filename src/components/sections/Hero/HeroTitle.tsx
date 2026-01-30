@@ -21,20 +21,20 @@ export function HeroTitle() {
 
   return (
     <h1
-      id="hero-title"
-      className="text-7xl text-white font-medium leading-tight h-[180px]"
-      aria-label="Work at the speed of thought"
+      id='hero-title'
+      className='text-7xl text-white font-medium leading-tight h-[180px]'
+      aria-label='Work at the speed of thought'
     >
       {lines.map((line, i) => {
         const isLastLine = i === lines.length - 1;
 
         return (
-          <span key={i} className="block">
+          <span key={i} className='block'>
             {line}
             {isLastLine && isTyping && (
               <span
-                className="ml-1 inline-block h-[1em] w-[2px] bg-white animate-pulse align-middle"
-                aria-hidden="true"
+                className='ml-1 inline-block h-[1em] w-[2px] bg-white animate-pulse align-middle'
+                aria-hidden='true'
               />
             )}
           </span>

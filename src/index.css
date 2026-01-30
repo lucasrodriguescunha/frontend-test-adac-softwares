@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* --- 1. Declaração das Fontes (@font-face) --- */
 /* Certifique-se de que o caminho (path) está correto em relação a este arquivo CSS */
@@ -43,13 +43,13 @@
      Opção A: Substituir a fonte padrão (sans).
      Assim, todo o site usará Graphik automaticamente.
   */
-  --font-sans: "Graphik", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Graphik', ui-sans-serif, system-ui, sans-serif;
 
   /*
      Opção B: Criar uma classe específica (ex: font-graphik).
      Se escolher esta, remova a linha de cima e use a de baixo.
   */
-  /* --font-graphik: "Graphik", sans-serif; */
+  /* --font-graphik: 'Graphik', sans-serif; */
 }
 
 /* --- CSS Padrão e Utilitários --- */

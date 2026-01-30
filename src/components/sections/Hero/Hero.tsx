@@ -1,6 +1,6 @@
 import { HeroTitle } from './HeroTitle';
 import { HeroSubTitle } from './HeroSubTitle';
-import { CTAButton } from './CTAButton';
+import { CTAButton } from '../../layout/CTAButton';
 import { HeroBanner } from './HeroBanner';
 
 export function Hero() {
@@ -12,7 +12,10 @@ export function Hero() {
         <HeroTitle />
         <HeroSubTitle />
       </section>
-      <CTAButton />
+      <section className='flex gap-10 pb-10'>
+        <CTAButton text='Try For Free' variant='primary' />
+        <CTAButton text='Learn More' variant='dark' />
+      </section>
       <HeroBanner />
     </section>
   );

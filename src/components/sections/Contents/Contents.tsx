@@ -1,6 +1,6 @@
-import { ContentTitle } from "./ContentTitle";
-import { ContentSubTitle } from "./ContentSubTitle";
-import { ContentHero } from "./ContentHero";
+import { ContentTitle } from './ContentTitle';
+import { ContentSubTitle } from './ContentSubTitle';
+import { ContentHero } from './ContentHero';
 
 export function Contents() {
   return (

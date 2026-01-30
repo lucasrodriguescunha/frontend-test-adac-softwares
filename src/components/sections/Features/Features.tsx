@@ -1,6 +1,6 @@
-import { FeatureTitle } from "./FeatureTitle";
-import { FeatureSubTitle } from "./FeatureSubTitle";
-import { FeatureHero } from "./FeatureHero";
+import { FeatureTitle } from './FeatureTitle';
+import { FeatureSubTitle } from './FeatureSubTitle';
+import { FeatureHero } from './FeatureHero';
 
 export function Features() {
   return (
