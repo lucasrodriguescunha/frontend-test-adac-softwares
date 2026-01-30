@@ -10,11 +10,11 @@ export function ContentCard({
   return (
     <section
       aria-labelledby={`content-title-${id}`}
-      className='flex flex-col items-center w-[500px] bg-[#FFFFFF] rounded-lg gap-4 p-6'
+      className='flex flex-col items-center h-full w-auto bg-[#FFFFFF] rounded-lg gap-10 p-6'
     >
       <h3
         id={`content-title-${id}`}
-        className='text-xl font-medium text-black whitespace-pre-line'
+        className='text-xl font-medium text-black whitespace-pre-line pt-4'
       >
         {title}
       </h3>

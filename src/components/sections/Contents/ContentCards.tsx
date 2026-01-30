@@ -31,10 +31,10 @@ export function ContentCards() {
   ];
 
   return (
-    <section className='m-4 ' aria-labelledby='contents-title'>
-      <ul className='grid grid-cols-1 md:grid-cols-2 gap-8' role='list'>
+    <section className='m-4' aria-labelledby='contents-title'>
+      <ul className='grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch' role='list'>
         {contents.map(content => (
-          <li key={content.id}>
+          <li key={content.id} className='h-full'>
             <ContentCard {...content} />
           </li>
         ))}
