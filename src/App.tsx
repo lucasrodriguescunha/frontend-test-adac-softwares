@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import { Hero } from './components/sections/Hero/Hero';
 import { Features } from './components/sections/Features/Features';
 import { Contents } from './components/sections/Contents/Contents';
+import { Gallery } from './components/sections/Gallery/Gallery';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Hero />
       <Features />
       <Contents />
+      <Gallery />
 
       <Routes>
         <Route path='/' element={<Home />} />
