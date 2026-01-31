@@ -1,11 +1,11 @@
-import type { FeatureCardProps } from '../../../types/FeatureCardProps';
+import type { FeaturesCardProps } from '../../../types/FeaturesCardProps';
 
 export function FeaturesCard({
   id,
   icon,
   title,
   description
-}: FeatureCardProps) {
+}: FeaturesCardProps) {
   return (
     <section
       aria-labelledby={`feature-title-${id}`}

@@ -5,7 +5,7 @@ export function CTAButton({
   variant = 'primary'
 }: CTAButtonProps) {
   const baseClasses =
-    'text-base font-medium px-10 py-4 cursor-pointer transition-colors';
+    'text-base font-medium px-10 py-4 cursor-pointer transition-colors w-max';
 
   const variants = {
     primary: 'bg-[#4452FE] text-white border border-[#4452FE]',

@@ -1,10 +1,10 @@
-export function GalleryTitle() {
+export function TestimonialsTitle() {
   return (
     <h2
-      id='gallery-title'
+      id='testimonial-title'
       className='text-5xl text-white font-normal'
     >
-      Gallery
+      Testimonials
     </h2>
   );
 }

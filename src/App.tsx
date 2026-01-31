@@ -11,6 +11,7 @@ import { Features } from './components/sections/Features/Features';
 import { Contents } from './components/sections/Contents/Contents';
 import { Gallery } from './components/sections/Gallery/Gallery';
 import { Partners } from './components/sections/Partners/Partners';
+import { Testimonials } from './components/sections/Testimonials/Testimonials';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <Contents />
       <Gallery />
       <Partners />
+      <Testimonials />
 
       <Routes>
         <Route path='/' element={<Home />} />

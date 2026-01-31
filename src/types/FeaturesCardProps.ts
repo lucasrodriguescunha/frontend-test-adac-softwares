@@ -1,4 +1,4 @@
-export type FeatureCardProps = {
+export type FeaturesCardProps = {
   id: number
   icon: string
   title: string
