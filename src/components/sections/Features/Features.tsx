@@ -1,5 +1,5 @@
 import { FeaturesTitle } from './FeaturesTitle';
-import { FeaturesSubtitle } from './FeatureSubtitle';
+import { FeaturesSubtitle } from './FeaturesSubtitle';
 import { FeaturesHero } from './FeaturesHero';
 
 export function Features() {
