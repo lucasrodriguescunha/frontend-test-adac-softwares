@@ -1,3 +1,3 @@
-export function Partner() {
+export function Partners() {
   
 }
