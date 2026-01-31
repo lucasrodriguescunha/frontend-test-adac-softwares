@@ -1,5 +1,5 @@
 import { FeaturesCards } from './FeaturesCards';
-import FeaturesHeroBannerImage from '../../../assets/features.png';
+import FeaturesHeroBannerImage from '../../../assets/images/features.png';
 
 export function FeaturesHero() {
   return (

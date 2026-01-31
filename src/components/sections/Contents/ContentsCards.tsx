@@ -1,7 +1,7 @@
 import { ContentsCard } from './ContentsCard';
 import { CTAButton } from '../../layout/CTAButton';
-import ContentImage1 from '../../../assets/content1.png';
-import ContentImage2 from '../../../assets/content2.png';
+import ContentImage1 from '../../../assets/images/content1.png';
+import ContentImage2 from '../../../assets/images/content2.png';
 
 export function ContentsCards() {
   const contents = [

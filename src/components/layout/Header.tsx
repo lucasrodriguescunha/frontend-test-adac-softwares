@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { HeaderButton } from './LoginButton';
-import FigmaLandIcon from '../../assets/figma-land.svg';
+import FigmaLandIcon from '../../assets/icons/figma-land.svg';
 
 export function Header() {
   return (
@@ -16,7 +16,7 @@ export function Header() {
           />
         </Link>
         <nav aria-label='Navegação principal'>
-          <ul className='flex gap-10 text-base text-white font-medium'>
+          <ul className='flex gap-8 text-base text-white font-medium'>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/product'>Product</Link></li>
             <li><Link to='/about'>About</Link></li>

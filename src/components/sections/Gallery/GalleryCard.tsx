@@ -1,4 +1,4 @@
-import type { GalleryCardProps } from "../../../types/GalleryCardProps";
+import type { GalleryCardProps } from '../../../types/GalleryCardProps';
 
 export function GalleryCard({
   image,

@@ -1,8 +1,8 @@
 import { FeaturesCard } from './FeaturesCard'
 
-import FeatureIcon1 from '../../../assets/feature1.svg'
-import FeatureIcon2 from '../../../assets/feature2.svg'
-import FeatureIcon3 from '../../../assets/feature3.svg'
+import FeatureIcon1 from '../../../assets/icons/feature1.svg'
+import FeatureIcon2 from '../../../assets/icons/feature2.svg'
+import FeatureIcon3 from '../../../assets/icons/feature3.svg'
 
 export function FeaturesCards() {
   const features = [

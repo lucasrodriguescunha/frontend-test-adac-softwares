@@ -1,4 +1,4 @@
-import type { ContentsCardProps } from "../../../types/ContentsCardProps";
+import type { ContentsCardProps } from '../../../types/ContentsCardProps';
 
 export function ContentsCard({
   id,
@@ -10,7 +10,7 @@ export function ContentsCard({
   return (
     <section
       aria-labelledby={`content-title-${id}`}
-      className='flex flex-col items-center h-full w-auto bg-[#FFFFFF] rounded-lg gap-10 p-6'
+      className='flex flex-col items-center h-full w-auto bg-[#FFFFFF] rounded-lg gap-8 p-6'
     >
       <h3
         id={`content-title-${id}`}
@@ -23,8 +23,8 @@ export function ContentsCard({
         {description}
       </p>
 
-      {cta && <div className="mt-2">{cta}</div>}
-      <img src={image} alt="" />
+      {cta && <div className='mt-2'>{cta}</div>}
+      <img src={image} alt='' />
     </section>
   );
 }

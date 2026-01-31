@@ -1,5 +1,5 @@
-import HeroBannerImage from '../../../assets/screens.png';
-import HeroBannerGradient from '../../../assets/gradient.png'
+import HeroBannerImage from '../../../assets/images/screens.png';
+import HeroBannerGradient from '../../../assets/images/gradient.png'
 
 export function HeroBanner() {
   return (
