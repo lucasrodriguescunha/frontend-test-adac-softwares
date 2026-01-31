@@ -12,6 +12,7 @@ import { Contents } from './components/sections/Contents/Contents';
 import { Gallery } from './components/sections/Gallery/Gallery';
 import { Partners } from './components/sections/Partners/Partners';
 import { Testimonials } from './components/sections/Testimonials/Testimonials';
+import { Footer } from './components/sections/Footer/Footer';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <Gallery />
       <Partners />
       <Testimonials />
+      <Footer />
 
       <Routes>
         <Route path='/' element={<Home />} />

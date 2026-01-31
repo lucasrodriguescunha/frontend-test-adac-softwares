@@ -6,7 +6,7 @@ export function Testimonials() {
     <section
       className='flex flex-col items-center bg-dark text-center'
     >
-      <section className='flex flex-col px-[85px] pt-[160px] pb-[80px] gap-8'>
+      <section className='flex flex-col px-[85px] pt-[160px] pb-[80px]'>
         <TestimonialsTitle />
       </section>
       <TestimonialsGrid />

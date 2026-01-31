@@ -1,9 +1,9 @@
 import { PartnersIcon } from './PartnersIcon';
 
-import AppStoreIcon from '../../../assets/icons/app-store.svg';
+import AppStoreIcon from '../../../assets/icons/app-store.png';
 import UnityIcon from '../../../assets/icons/unity.svg';
 import AndroidIcon from '../../../assets/icons/android.svg';
-import PlayGamesIcon from '../../../assets/icons/play-games.svg';
+import PlayGamesIcon from '../../../assets/icons/play-games.png';
 import AirBnbIcon from '../../../assets/icons/airbnb.svg';
 import IbmIcon from '../../../assets/icons/ibm.svg';
 
