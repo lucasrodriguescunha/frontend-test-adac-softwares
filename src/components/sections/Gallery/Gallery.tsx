@@ -1,5 +1,5 @@
 import { GalleryTitle } from './GalleryTitle';
-import { GallerySubTitle } from './GallerySubTitle';
+import { GallerySubtitle } from './GallerySubTitle';
 import { GalleryGrid } from './GalleryGrid';
 
 export function Gallery() {
@@ -9,7 +9,7 @@ export function Gallery() {
     >
       <section className='flex flex-col px-[85px] pt-[160px] pb-[80px] gap-10'>
         <GalleryTitle />
-        <GallerySubTitle />
+        <GallerySubtitle />
       </section>
       <GalleryGrid />
     </section>

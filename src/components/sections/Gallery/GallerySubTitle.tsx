@@ -1,4 +1,4 @@
-export function GallerySubTitle() {
+export function GallerySubtitle() {
   return (
     <p className='text-xl text-white font-normal'>
       We focus on ergonomics and meeting you where you work.

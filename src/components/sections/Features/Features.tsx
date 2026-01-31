@@ -1,6 +1,6 @@
-import { FeatureTitle } from './FeatureTitle';
-import { FeatureSubTitle } from './FeatureSubTitle';
-import { FeatureHero } from './FeatureHero';
+import { FeaturesTitle } from './FeaturesTitle';
+import { FeaturesSubtitle } from './FeatureSubtitle';
+import { FeaturesHero } from './FeaturesHero';
 
 export function Features() {
   return (
@@ -8,10 +8,10 @@ export function Features() {
       className='flex flex-col items-center bg-dark text-center'
     >
       <section className='flex flex-col px-[85px] pt-[160px] pb-[80px] gap-10'>
-        <FeatureTitle />
-        <FeatureSubTitle />
+        <FeaturesTitle />
+        <FeaturesSubtitle />
       </section>
-      <FeatureHero />
+      <FeaturesHero />
     </section>
   );
 }

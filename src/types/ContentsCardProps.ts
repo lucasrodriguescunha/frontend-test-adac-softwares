@@ -1,4 +1,4 @@
-export type ContentCardProps = {
+export type ContentsCardProps = {
   id: number
   title: string
   description: string

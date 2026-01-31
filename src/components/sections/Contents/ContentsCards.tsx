@@ -1,10 +1,9 @@
-import { ContentCard } from './ContentCard';
-
+import { ContentsCard } from './ContentsCard';
 import { CTAButton } from '../../layout/CTAButton';
 import ContentImage1 from '../../../assets/content1.png';
 import ContentImage2 from '../../../assets/content2.png';
 
-export function ContentCards() {
+export function ContentsCards() {
   const contents = [
     {
       id: 1,
@@ -35,7 +34,7 @@ export function ContentCards() {
       <ul className='grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch' role='list'>
         {contents.map(content => (
           <li key={content.id} className='h-full'>
-            <ContentCard {...content} />
+            <ContentsCard {...content} />
           </li>
         ))}
       </ul>

@@ -1,4 +1,4 @@
-export function FeatureTitle() {
+export function FeaturesTitle() {
   return (
     <h2
       id='features-title'

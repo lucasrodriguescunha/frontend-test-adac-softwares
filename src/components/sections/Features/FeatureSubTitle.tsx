@@ -1,4 +1,4 @@
-export function FeatureSubTitle() {
+export function FeaturesSubtitle() {
   return (
     <p className='text-xl text-white font-normal'>
       Most calendars are designed for teams. Slate is designed for

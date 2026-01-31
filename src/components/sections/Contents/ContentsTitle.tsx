@@ -1,4 +1,4 @@
-export function ContentTitle() {
+export function ContentsTitle() {
   return (
     <h2
       id='contents-title'

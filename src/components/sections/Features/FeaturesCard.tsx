@@ -1,6 +1,6 @@
 import type { FeatureCardProps } from '../../../types/FeatureCardProps';
 
-export function FeatureCard({
+export function FeaturesCard({
   id,
   icon,
   title,

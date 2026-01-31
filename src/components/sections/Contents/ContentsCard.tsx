@@ -1,12 +1,12 @@
-import type { ContentCardProps } from '../../../types/ContentCardProps';
+import type { ContentsCardProps } from "../../../types/ContentsCardProps";
 
-export function ContentCard({
+export function ContentsCard({
   id,
   title,
   description,
   cta,
   image
-}: ContentCardProps) {
+}: ContentsCardProps) {
   return (
     <section
       aria-labelledby={`content-title-${id}`}

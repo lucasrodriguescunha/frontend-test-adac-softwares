@@ -1,10 +1,10 @@
-import { FeatureCard } from './FeatureCard'
+import { FeaturesCard } from './FeaturesCard'
 
 import FeatureIcon1 from '../../../assets/feature1.svg'
 import FeatureIcon2 from '../../../assets/feature2.svg'
 import FeatureIcon3 from '../../../assets/feature3.svg'
 
-export function FeatureCards() {
+export function FeaturesCards() {
   const features = [
     {
       id: 1,
@@ -34,7 +34,7 @@ export function FeatureCards() {
       <ul className='flex flex-col gap-4' role='list'>
         {features.map(feature => (
           <li key={feature.id}>
-            <FeatureCard {...feature} />
+            <FeaturesCard {...feature} />
           </li>
         ))}
       </ul>

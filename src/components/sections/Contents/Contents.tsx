@@ -1,6 +1,6 @@
-import { ContentTitle } from './ContentTitle';
-import { ContentSubTitle } from './ContentSubTitle';
-import { ContentHero } from './ContentHero';
+import { ContentsHero } from "./ContentsHero";
+import { ContentsSubtitle } from "./ContentsSubtitle";
+import { ContentsTitle } from "./ContentsTitle";
 
 export function Contents() {
   return (
@@ -8,10 +8,10 @@ export function Contents() {
       className='flex flex-col items-center bg-dark text-center'
     >
       <section className='flex flex-col px-[85px] pt-[160px] pb-[80px] gap-10'>
-        <ContentTitle />
-        <ContentSubTitle />
+        <ContentsTitle />
+        <ContentsSubtitle />
       </section>
-      <ContentHero />
+      <ContentsHero />
     </section>
   );
 }
