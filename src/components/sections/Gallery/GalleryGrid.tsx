@@ -12,13 +12,13 @@ import { GalleryCard } from './GalleryCard';
 export function GalleryGrid() {
   return (
     <section className='w-full flex flex-col justify-center items-center gap-8'>
-      <div className='grid grid-cols-4 gap-8'>
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
         <GalleryCard image={GalleryImage1} />
         <GalleryCard image={GalleryImage2} />
         <GalleryCard image={GalleryImage3} />
         <GalleryCard image={GalleryImage4} />
       </div>
-      <div className='grid grid-cols-[1.2fr_1fr_1.2fr] gap-8'>
+      <div className="hidden lg:grid lg:grid-cols-[1.2fr_1fr_1.2fr] lg:gap-8">
         <GalleryCard image={GalleryImage5} />
         <GalleryCard image={GalleryImage6} />
         <GalleryCard image={GalleryImage7} />
