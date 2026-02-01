@@ -22,7 +22,7 @@ export function HeroTitle() {
   return (
     <h1
       id='hero-title'
-      className='text-7xl text-white font-medium leading-tight h-[180px]'
+      className='text-5xl md:text-6xl lg:text-7xl text-white font-normal md:font-medium lg:font-medium leading-tight min-h-[160px] md:min-h-[180px] lg:min-h-[200px] mb-6 md:mb-8'
       aria-label='Work at the speed of thought'
     >
       {lines.map((line, i) => {

@@ -31,7 +31,7 @@ export function FeaturesCards() {
 
   return (
     <section className='m-4 ' aria-labelledby='features-title'>
-      <ul className='flex flex-col gap-4' role='list'>
+      <ul className='flex flex-col items-center gap-4' role='list'>
         {features.map(feature => (
           <li key={feature.id}>
             <FeaturesCard {...feature} />
