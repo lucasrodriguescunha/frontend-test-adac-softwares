@@ -1,15 +1,19 @@
+import { Container } from "../../layout/Container";
 import { TestimonialsGrid } from "./TestimonialsGrid";
 import { TestimonialsTitle } from "./TestimonialsTitle";
 
 export function Testimonials() {
   return (
-    <section
-      className='flex flex-col items-center bg-dark text-center'
-    >
-      <section className='flex flex-col px-[85px] pt-[160px] pb-[80px]'>
-        <TestimonialsTitle />
-      </section>
-      <TestimonialsGrid />
+    <section className='bg-dark'>
+      <Container>
+        {/* Cabeçalho centralizado */}
+        <div className='flex flex-col items-center text-center pt-[160px] pb-[80px]'>
+          <TestimonialsTitle />
+        </div>
+
+        {/* Grid de depoimentos */}
+        <TestimonialsGrid />
+      </Container>
     </section>
   );
 }

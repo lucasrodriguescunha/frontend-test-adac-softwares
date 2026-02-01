@@ -12,7 +12,7 @@ import { Contents } from './components/sections/Contents/Contents';
 import { Gallery } from './components/sections/Gallery/Gallery';
 import { Partners } from './components/sections/Partners/Partners';
 import { Testimonials } from './components/sections/Testimonials/Testimonials';
-import { Footer } from './components/sections/Footer/Footer';
+import { Footer } from './components/layout/Footer';
 
 export default function App() {
   return (

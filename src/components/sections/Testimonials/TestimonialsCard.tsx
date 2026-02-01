@@ -11,32 +11,40 @@ export function TestimonialsCard({
       className="
         flex flex-col gap-6
         bg-dark
-        border border-[#565656] sm:border-[#DEDEDE]
+        border border-[#565656]
         rounded-lg
-        p-5 sm:p-8
-        w-full
-        max-w-[360px] sm:max-w-none
+        p-6 lg:p-8
+        h-full
+        transition-all
+        duration-300
+        hover:border-white/30
+        hover:shadow-lg
+        hover:shadow-white/5
       "
     >
-      <header className="flex items-center gap-6">
-        <img
-          src={avatar}
-          alt={`Foto de ${author}`}
-        />
+      <header className="flex items-center gap-4">
+        <div className="flex-shrink-0">
+          <img
+            src={avatar}
+            alt=""
+            className="w-12 h-12 rounded-full object-cover"
+            aria-hidden="true"
+          />
+        </div>
 
-        <div className="flex flex-col text-start">
-          <strong className="text-base text-white font-medium">
+        <div className="flex flex-col">
+          <h3 className="text-base text-white font-medium">
             {author}
-          </strong>
-          <span className="text-base text-white font-normal">
+          </h3>
+          <p className="text-sm text-white/70 font-normal">
             {profession}
-          </span>
+          </p>
         </div>
       </header>
 
-      <p className="text-base text-white font-normal text-start whitespace-pre-line leading-relaxed">
+      <blockquote className="text-base text-white/90 font-normal leading-relaxed">
         {testimonial}
-      </p>
+      </blockquote>
     </article>
   );
 }

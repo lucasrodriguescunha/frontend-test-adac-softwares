@@ -8,16 +8,14 @@ import AirBnbIcon from '../../../assets/icons/airbnb.svg';
 import IbmIcon from '../../../assets/icons/ibm.svg';
 
 export function PartnersIcons() {
-  return (
-    <PartnersIcon
-      icons={[
-        { src: AppStoreIcon, alt: 'Plataforma App Store da Apple' },
-        { src: UnityIcon, alt: 'Engine de jogos Unity' },
-        { src: AndroidIcon, alt: 'Sistema operacional Android' },
-        { src: PlayGamesIcon, alt: 'Plataforma Google Play Games' },
-        { src: AirBnbIcon, alt: 'Plataforma de hospedagem Airbnb' },
-        { src: IbmIcon, alt: 'Empresa de tecnologia IBM' },
-      ]}
-    />
-  );
+  const partners = [
+    { id: 1, src: AppStoreIcon, alt: 'App Store' },
+    { id: 2, src: UnityIcon, alt: 'Unity' },
+    { id: 3, src: AndroidIcon, alt: 'Android' },
+    { id: 4, src: PlayGamesIcon, alt: 'Google Play Games' },
+    { id: 5, src: AirBnbIcon, alt: 'Airbnb' },
+    { id: 6, src: IbmIcon, alt: 'IBM' }
+  ];
+
+  return <PartnersIcon icons={partners} />;
 }

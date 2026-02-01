@@ -14,7 +14,7 @@ export function HeroTitle() {
     }, 60);
 
     return () => clearTimeout(timeout);
-  }, [index]);
+  }, [index, text]);
 
   const lines = displayedText.split('\n');
   const isTyping = index < text.length;
@@ -22,7 +22,13 @@ export function HeroTitle() {
   return (
     <h1
       id='hero-title'
-      className='text-5xl md:text-6xl lg:text-7xl text-white font-normal md:font-medium lg:font-medium leading-tight min-h-[160px] md:min-h-[180px] lg:min-h-[200px] mb-6 md:mb-8'
+      className='
+        text-4xl sm:text-5xl lg:text-7xl 
+        text-white 
+        font-normal sm:font-medium 
+        leading-tight 
+        min-h-[120px] sm:min-h-[140px] lg:min-h-[200px]
+      '
       aria-label='Work at the speed of thought'
     >
       {lines.map((line, i) => {
@@ -33,7 +39,7 @@ export function HeroTitle() {
             {line}
             {isLastLine && isTyping && (
               <span
-                className='ml-1 inline-block h-[1em] w-[2px] bg-white animate-pulse align-middle'
+                className='ml-1 inline-block h-[0.9em] w-[3px] bg-white animate-pulse align-middle'
                 aria-hidden='true'
               />
             )}

@@ -3,13 +3,18 @@ import FeaturesHeroBannerImage from '../../../assets/images/features.png';
 
 export function FeaturesHero() {
   return (
-    <section className='w-full grid grid-cols-1 lg:grid-cols-[auto_auto] justify-center items-center gap-8 lg:gap-0'>
-      <img
-        src={FeaturesHeroBannerImage}
-        alt='Illustration of product features'
-        className='w-[300px] max-w-md lg:max-w-none mx-auto'
-      />
+    <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center pb-20'>
+      {/* Imagem */}
+      <div className='flex justify-center lg:justify-end'>
+        <img
+          src={FeaturesHeroBannerImage}
+          alt='Illustration of product features'
+          className='w-full max-w-[480px] lg:max-w-[540px]'
+        />
+      </div>
+
+      {/* Cards */}
       <FeaturesCards />
-    </section>
+    </div>
   );
 }

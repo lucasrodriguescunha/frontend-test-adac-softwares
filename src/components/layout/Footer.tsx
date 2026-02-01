@@ -1,8 +1,8 @@
-import GpsLocationIcon from '../../../assets/icons/gps.svg';
-import SmarthphoneIcon from '../../../assets/icons/smarthphone.svg';
-import TwitterIcon from '../../../assets/icons/twitter.svg';
-import FacebookIcon from '../../../assets/icons/facebook.svg';
-import LinkedinIcon from '../../../assets/icons/linkedin.svg';
+import GpsLocationIcon from '../../assets/icons/gps.svg';
+import SmarthphoneIcon from '../../assets/icons/smarthphone.svg';
+import TwitterIcon from '../../assets/icons/twitter.svg';
+import FacebookIcon from '../../assets/icons/facebook.svg';
+import LinkedinIcon from '../../assets/icons/linkedin.svg';
 
 export function Footer() {
   return (
