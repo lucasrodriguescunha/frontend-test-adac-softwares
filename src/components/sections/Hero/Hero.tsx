@@ -1,6 +1,6 @@
 import { Container } from '../../layout/Container';
 import { HeroTitle } from './HeroTitle';
-import { HeroSubtitle } from './HeroSubTitle';
+import { HeroSubtitle } from './HeroSubtitle';
 import { CTAButton } from '../../layout/CTAButton';
 import { HeroBanner } from './HeroBanner';
 
@@ -14,7 +14,7 @@ export function Hero() {
           <HeroSubtitle />
           
           {/* Botões */}
-          <div className='flex flex-col sm:flex-row gap-4 sm:gap-6 mt-8 lg:mt-10 w-full sm:w-auto px-4 sm:px-0'>
+          <div className='flex flex-col items-center sm:flex-row gap-4 sm:gap-6 mt-8 lg:mt-10 w-full sm:w-auto px-4 sm:px-0'>
             <CTAButton text='Try For Free' variant='primary' />
             <CTAButton text='Learn More' variant='dark' />
           </div>

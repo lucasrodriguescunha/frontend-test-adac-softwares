@@ -41,7 +41,7 @@ const testimonials = [
 
 export function TestimonialsGrid() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 pb-20">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
       {testimonials.map((item) => (
         <TestimonialsCard key={item.id} {...item} />
       ))}

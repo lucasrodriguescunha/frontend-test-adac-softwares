@@ -6,7 +6,7 @@ export function PartnersIcon({ icons }: PartnersIconsProps) {
       aria-label="Empresas e plataformas parceiras"
       className="
         grid
-        grid-cols-2
+        grid-cols-3
         sm:grid-cols-3
         lg:grid-cols-6
         gap-x-8

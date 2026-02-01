@@ -5,7 +5,7 @@ export function HeroBanner() {
   return (
     <div className='relative w-full'>
       {/* Imagem principal */}
-      <div className='relative px-4 md:px-8 lg:px-12 pb-20 lg:pb-[160px]'>
+      <div className='relative px-4 md:px-8 lg:px-12 lg:pb-[160px]'>
         <img
           src={HeroBannerImage}
           alt='Screenshot da interface do produto mostrando múltiplas telas'

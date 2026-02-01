@@ -9,7 +9,7 @@ export function Partners() {
     <section className='bg-dark'>
       <Container>
         {/* Todo o conteúdo centralizado nesta seção */}
-        <div className='flex flex-col items-center text-center pt-[160px] pb-[160px] gap-8'>
+        <div className='flex flex-col items-center text-center pt-[160px] gap-8'>
           <PartnersTitle />
           <PartnersSubtitle />
           <PartnersIcons />
