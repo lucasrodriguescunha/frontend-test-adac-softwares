@@ -9,11 +9,13 @@ export function TestimonialsCard({
   return (
     <article
       className="
-        flex flex-col gap-8
+        flex flex-col gap-6
         bg-dark
-        border border-[#DEDEDE]
+        border border-[#565656] sm:border-[#DEDEDE]
         rounded-lg
-        p-8
+        p-5 sm:p-8
+        w-full
+        max-w-[360px] sm:max-w-none
       "
     >
       <header className="flex items-center gap-6">
@@ -32,7 +34,7 @@ export function TestimonialsCard({
         </div>
       </header>
 
-      <p className="text-base text-white font-normal text-start whitespace-pre-line">
+      <p className="text-base text-white font-normal text-start whitespace-pre-line leading-relaxed">
         {testimonial}
       </p>
     </article>

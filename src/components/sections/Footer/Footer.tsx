@@ -9,9 +9,9 @@ export function Footer() {
     <footer className="flex items-center justify-center bg-dark pt-[80px] pb-[80px]">
       <div className="grid grid-cols-1 md:grid-cols-[repeat(3,auto)_1fr] gap-12 md:gap-30 max-w-screen-xl">
         <nav aria-labelledby="fingertips-heading">
-          <h3 
+          <h3
             id="fingertips-heading"
-            className="text-white text-xl font-normal mb-6 pb-6"
+            className="text-white text-xl font-normal mb-6 pb-10"
           >
             Fingertipe
           </h3>
@@ -40,9 +40,9 @@ export function Footer() {
         </nav>
 
         <nav aria-labelledby="resources-heading">
-          <h3 
+          <h3
             id="resources-heading"
-            className="text-white text-xl font-normal mb-6 pb-6"
+            className="text-white text-xl font-normal mb-6 pb-10"
           >
             Resources
           </h3>
@@ -71,9 +71,9 @@ export function Footer() {
         </nav>
 
         <nav aria-labelledby="about-heading">
-          <h3 
+          <h3
             id="about-heading"
-            className="text-white text-xl font-normal mb-6 pb-6"
+            className="text-white text-xl font-normal mb-6 pb-10"
           >
             About
           </h3>
@@ -101,7 +101,7 @@ export function Footer() {
           </ul>
         </nav>
 
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 pt-10">
           <address className="not-italic flex items-center gap-3">
             <img
               src={GpsLocationIcon}
@@ -118,7 +118,7 @@ export function Footer() {
               src={SmarthphoneIcon}
               alt=""
             />
-            <a 
+            <a
               href="tel:+12395550108"
               className="text-white text-base font-normal hover:text-gray-300 transition-colors"
             >
@@ -127,22 +127,22 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-6" role="list">
-            <a 
-              href="#" 
+            <a
+              href="#"
               aria-label="Twitter"
               className="hover:opacity-80 transition-opacity"
             >
               <img src={TwitterIcon} alt="" />
             </a>
-            <a 
-              href="#" 
+            <a
+              href="#"
               aria-label="Facebook"
               className="hover:opacity-80 transition-opacity"
             >
               <img src={FacebookIcon} alt="" />
             </a>
-            <a 
-              href="#" 
+            <a
+              href="#"
               aria-label="LinkedIn"
               className="hover:opacity-80 transition-opacity"
             >
