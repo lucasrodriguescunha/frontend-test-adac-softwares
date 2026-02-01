@@ -14,7 +14,7 @@ export function PartnersIcon({ icons }: PartnersIconsProps) {
 
         lg:flex
         lg:justify-center
-        lg:gap-12
+        lg:gap-18
       "
     >
       {icons.map((icon, index) => (
