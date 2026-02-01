@@ -1,6 +1,6 @@
 import { Container } from '../../layout/Container';
 import { HeroTitle } from './HeroTitle';
-import { HeroSubtitle } from './HeroSubtitle';
+import { HeroSubtitle } from './test';
 import { CTAButton } from '../../layout/CTAButton';
 import { HeroBanner } from './HeroBanner';
 
