@@ -56,7 +56,6 @@ npm install
 ```bash
 npm run dev
 ```
-```
 
 ## 📱 Responsividade
 
