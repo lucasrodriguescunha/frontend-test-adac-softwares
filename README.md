@@ -1,6 +1,6 @@
 # Frontend Test - ADAC Softwares
 
-Landing page moderna e responsiva desenvolvida como parte do teste técnico frontend para a ADAC Softwares, baseada no design [Startup Landing Page Dark](https://www.figma.com/community/file/1116814883179607370) do Figma.
+Landing page moderna e responsiva desenvolvida como parte do teste técnico frontend para a ADAC Softwares, baseada no design [Startup Landing Page Dark](https://www.figma.com/design/ZPNUmaiz9mBy3vdKDQUass/Figma-startup-landing-page-dark--Community-?node-id=0-3519&t=GKoF7Oo32pWbk9yD-0) do Figma.
 
 ## 📋 Sobre o Projeto
 
