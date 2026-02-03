@@ -76,16 +76,6 @@ O projeto segue as melhores práticas de acessibilidade:
 - Navegação por teclado
 - Contraste adequado de cores
 
-## 🤝 Contribuindo
-
-Contribuições são sempre bem-vindas! Para contribuir:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feat/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'feat: adiciona nova feature'`)
-4. Push para a branch (`git push origin feat/nova-feature`)
-5. Abra um Pull Request
-
 ### Padrão de Commits
 
 Este projeto segue o padrão [Conventional Commits](https://www.conventionalcommits.org/):
