@@ -34,7 +34,7 @@ Figma Land é uma aplicação web desenvolvida para demonstrar boas práticas de
 
 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/figma-land.git
+git clone https://github.com/lucasrodriguescunha/frontend-test-adac-softwares.git
 ```
 
 2. Acesse o diretório do projeto
@@ -58,24 +58,6 @@ yarn dev
 
 5. Abra o navegador e acesse `http://localhost:5173`
 
-## 🏗️ Estrutura do Projeto
-```
-figma-land/
-├── src/
-│   ├── assets/
-│   │   └── icons/          # Ícones SVG
-│   ├── components/
-│   │   └── Header/         # Componentes do Header
-│   │       ├── Header.tsx
-│   │       └── LoginButton.tsx
-│   ├── App.tsx
-│   └── main.tsx
-├── public/
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-└── vite.config.ts
 ```
 
 ## 🎨 Componentes Principais
