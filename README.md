@@ -1,19 +1,29 @@
-# Figma Land
+# Frontend Test - ADAC Softwares
 
-Landing page moderna e responsiva desenvolvida com React, TypeScript e Tailwind CSS, apresentando design clean e navegação intuitiva.
+Landing page moderna e responsiva desenvolvida como parte do teste técnico frontend para a ADAC Softwares, baseada no design [Startup Landing Page Dark](https://www.figma.com/community/file/1116814883179607370) do Figma.
 
 ## 📋 Sobre o Projeto
 
-Figma Land é uma aplicação web desenvolvida para demonstrar boas práticas de desenvolvimento front-end, com foco em responsividade, acessibilidade e experiência do usuário. O projeto apresenta um design moderno com navegação adaptativa para diferentes tamanhos de tela.
+Este projeto foi desenvolvido como resposta ao desafio técnico proposto pela ADAC Softwares, com o objetivo de demonstrar habilidades em desenvolvimento frontend, transformação de designs em código funcional e implementação de boas práticas de desenvolvimento.
 
-## ✨ Funcionalidades
+## 🎯 Objetivo do Desafio
 
-- 🎨 Interface moderna e minimalista
+Implementar uma landing page seguindo fielmente o design fornecido no Figma, demonstrando:
+- ✅ Capacidade de transformar designs em código funcional
+- ✅ Escrita de código limpo e organizado
+- ✅ Implementação de boas práticas de desenvolvimento
+- ✅ Criação de interfaces responsivas
+- ✅ Documentação adequada do projeto
+
+## ✨ Funcionalidades Implementadas
+
+- 🎨 Interface moderna e minimalista seguindo o design do Figma
 - 📱 Design totalmente responsivo (Mobile, Tablet e Desktop)
 - 🍔 Menu hambúrguer para navegação mobile/tablet
 - ♿ Elementos com suporte a acessibilidade (ARIA labels)
 - 🎯 Navegação entre páginas com React Router
 - 🌙 Tema escuro elegante
+- ✨ Transições e animações suaves
 
 ## 🚀 Tecnologias Utilizadas
 
