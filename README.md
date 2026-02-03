@@ -56,9 +56,8 @@ npm install
 ```bash
 npm run dev
 ```
-
+```
 4. Abra o navegador e acesse `http://localhost:5173`
-
 ```
 
 ## 📱 Responsividade
