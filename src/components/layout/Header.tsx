@@ -28,7 +28,6 @@ export function Header() {
           />
         </Link>
 
-        {/* Menu Desktop - escondido em mobile/tablet */}
         <nav aria-label='Navegação principal' className='hidden lg:block'>
           <ul className='flex gap-8 text-base text-white font-medium'>
             <li><Link to='/'>Home</Link></li>
@@ -38,12 +37,10 @@ export function Header() {
           </ul>
         </nav>
 
-        {/* Botão Login - escondido em mobile/tablet */}
         <div className='hidden lg:block'>
           <HeaderButton />
         </div>
 
-        {/* Menu Hambúrguer - visível apenas em mobile/tablet */}
         <button
           onClick={toggleMenu}
           className='lg:hidden'
@@ -58,7 +55,6 @@ export function Header() {
         </button>
       </div>
 
-      {/* Menu Mobile/Tablet */}
       {isMenuOpen && (
         <nav
           className='lg:hidden bg-dark border-t border-gray-700'

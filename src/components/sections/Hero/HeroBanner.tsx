@@ -4,7 +4,6 @@ import HeroBannerGradient from '../../../assets/images/gradient.png';
 export function HeroBanner() {
   return (
     <div className='relative w-full'>
-      {/* Imagem principal */}
       <div className='relative px-4 md:px-8 lg:px-12 lg:pb-[160px]'>
         <img
           src={HeroBannerImage}
@@ -13,7 +12,6 @@ export function HeroBanner() {
         />
       </div>
 
-      {/* Gradiente overlay */}
       <img
         src={HeroBannerGradient}
         alt=''

@@ -26,7 +26,6 @@ export function GalleryGrid() {
 
   return (
     <div className='flex flex-col gap-8'>
-      {/* Primeira linha - 4 colunas */}
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8'>
         {galleryImages.row1.map(item => (
           <GalleryCard
@@ -37,7 +36,6 @@ export function GalleryGrid() {
         ))}
       </div>
 
-      {/* Segunda linha - 3 colunas com proporções diferentes */}
       <div className='hidden lg:grid lg:grid-cols-[1.2fr_1fr_1.2fr] lg:gap-8'>
         {galleryImages.row2.map(item => (
           <GalleryCard
@@ -47,8 +45,7 @@ export function GalleryGrid() {
           />
         ))}
       </div>
-
-      {/* Mobile: Segunda linha em grid padrão */}
+    
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 lg:hidden'>
         {galleryImages.row2.map(item => (
           <GalleryCard
@@ -59,7 +56,6 @@ export function GalleryGrid() {
         ))}
       </div>
 
-      {/* Botão centralizado */}
       <div className='flex justify-center mt-4'>
         <CTAButton text='See more' variant='dark' />
       </div>
