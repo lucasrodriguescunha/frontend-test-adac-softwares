@@ -93,5 +93,3 @@ Este projeto segue o padrão [Conventional Commits](https://www.conventionalcomm
 Desenvolvido com ❤️ por [Lucas Rodrigues Cunha](https://github.com/lucasrodriguescunha)
 
 ---
-
-⭐ Se este projeto foi útil para você, considere dar uma estrela!
