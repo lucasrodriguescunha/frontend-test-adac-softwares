@@ -37,26 +37,17 @@ Figma Land é uma aplicação web desenvolvida para demonstrar boas práticas de
 git clone https://github.com/lucasrodriguescunha/frontend-test-adac-softwares.git
 ```
 
-2. Acesse o diretório do projeto
-```bash
-cd figma-land
-```
-
-3. Instale as dependências
+2. Instale as dependências
 ```bash
 npm install
-# ou
-yarn install
 ```
 
-4. Inicie o servidor de desenvolvimento
+3. Inicie o servidor de desenvolvimento
 ```bash
 npm run dev
-# ou
-yarn dev
 ```
 
-5. Abra o navegador e acesse `http://localhost:5173`
+4. Abra o navegador e acesse `http://localhost:5173`
 
 ```
 
