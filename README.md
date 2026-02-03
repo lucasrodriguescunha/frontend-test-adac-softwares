@@ -51,34 +51,6 @@ npm run dev
 
 ```
 
-## 🎨 Componentes Principais
-
-### Header
-Componente de navegação principal com:
-- Logo clicável que redireciona para a home
-- Menu de navegação desktop
-- Botão de Login
-- Menu hambúrguer responsivo para mobile/tablet
-
-### Navegação Responsiva
-- **Desktop (≥1024px)**: Menu horizontal completo
-- **Mobile/Tablet (<1024px)**: Menu hambúrguer com navegação em lista
-
-## 🛠️ Scripts Disponíveis
-```bash
-# Desenvolvimento
-npm run dev
-
-# Build para produção
-npm run build
-
-# Preview da build de produção
-npm run preview
-
-# Linting
-npm run lint
-```
-
 ## 📱 Responsividade
 
 O projeto utiliza breakpoints do Tailwind CSS:
