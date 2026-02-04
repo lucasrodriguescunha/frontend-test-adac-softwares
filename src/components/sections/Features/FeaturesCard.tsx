@@ -9,7 +9,7 @@ export function FeaturesCard({
   return (
     <article
       aria-labelledby={`feature-title-${id}`}
-      className='flex flex-col gap-4'
+      className='flex flex-col gap-4 w-[270px]'
     >
       <div className='flex items-center gap-4'>
         <span

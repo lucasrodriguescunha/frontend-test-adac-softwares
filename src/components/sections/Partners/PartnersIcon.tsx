@@ -9,7 +9,7 @@ export function PartnersIcon({ icons }: PartnersIconsProps) {
         grid-cols-3
         sm:grid-cols-3
         lg:grid-cols-6
-        gap-x-8
+        gap-x-2
         gap-y-10
         lg:gap-x-12
         items-center

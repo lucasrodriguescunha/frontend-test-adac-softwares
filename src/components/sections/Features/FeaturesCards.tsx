@@ -30,7 +30,7 @@ export function FeaturesCards() {
   ]
 
   return (
-    <div className='flex flex-col gap-8 lg:gap-10'>
+    <div className='flex flex-col items-center gap-8 lg:gap-10'>
       {features.map(feature => (
         <FeaturesCard key={feature.id} {...feature} />
       ))}
